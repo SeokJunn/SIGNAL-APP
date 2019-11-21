@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dip"
+    android:layout_height="200dip"
+    tools:context="com.example.myoungin10.login.LoginDialogActivity">
+
+    <TextView
+        android:id="@+id/login_dialog_contentText"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="테스트"
+        android:textSize="25sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/login_dialog_passwordText"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background="@color/colorBlack"
+        android:layout_above="@+id/login_dialog_okBtn"
+        android:hint="비밀번호 입력"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/login_dialog_okBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="확인"/>
+
+    <Button
+        android:id="@+id/login_dialog_cancelBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/login_dialog_okBtn"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/login_dialog_okBtn"
+        android:text="취소"/>
+
+</RelativeLayout>

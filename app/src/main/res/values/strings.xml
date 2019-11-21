@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FINALPROJECT</string>
+    <string name="title_activity_tab2_menu">Tab2ActivityMenu</string>
+    <string name="title_activity_tab3_memo">Tab3ActivityMemo</string>
+    <string name="title_activity_dialog">Dialog</string>
+</resources>
